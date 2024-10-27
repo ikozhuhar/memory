@@ -24,10 +24,8 @@
 sudo lshw -class memory 
 sudo free -m
 sudo du -sch ./<dir_name>/*
-```
 
-Сбросить кэш
-```
+# Сбросить кэш
 ls -l /proc/sys/vm/drop_caches
 echo 3 > /proc/sys/vm/drop_caches
 ```
