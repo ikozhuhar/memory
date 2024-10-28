@@ -58,17 +58,6 @@ cat /proc/sys/vm/swappiness
 proc/sys/vm/
 ```
 
-Swappiness. Это параметр sysctl, задающийся в файле /etc/sysctl.conf и позволяющий установить приоритеты доступа к оперативной памяти. Он может принимать значения от 0 до 200, значение по умолчанию равно 60
-```
-ls -l /proc/sys/vm/swappiness
-cat /proc/sys/vm/swappiness
-```
-
-Этот  каталог  содержит  файлы  для тонкой настройки управления памятью, буферами и кэшем. Подробнее: https://manpages.ubuntu.com/manpages/oracular/ru/man5/proc_sys_vm.5.html
-```
-proc/sys/vm/
-```
-
 
 #### 2. [[⬆]](#toc) <a name='kak_nakhodit_protsessy_kotoryye_zanimayut_pamyat'>Как находить процессы которые занимают память</a>
 
